@@ -195,7 +195,6 @@ var game = {
 }
 
 $(document).keydown(function (e) {
-  console.log(e.which)
   if (game.pacman.direction == direction.NO) {// start game
     switch (e.which) {
       case 37: // left
